@@ -11,7 +11,7 @@ function Menu() {
     }
 
     return (
-        <div className='py-10 px-25 max-lg:px-5 max-lg:py-5 max-md:px-3 '>
+        <div className='py-10 px-25 max-lg:px-5 max-lg:py-5 max-md:px-5 '>
             <h1 className='capitalize text-[2.5em] text-center max-lg:text-[1.5em]'>our <span className='text-[#FFE700]'>menu</span></h1>
             <MenuItems />
             <p>

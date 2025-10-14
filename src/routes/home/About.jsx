@@ -6,9 +6,9 @@ import AboutSub from "./AboutSub";
 
 function About() {
     return (
-        <div className="flex justify-center items-center h-auto gap-10 max-lg:gap-4 p-15 px-25 max-lg:px-5 max-lg:py-15  max-md:px-3 max-md:flex-wrap">
+        <div className="flex justify-center items-center h-auto gap-10 max-lg:gap-4 p-15 px-25 max-lg:px-5 max-lg:py-15  max-md:px-5 max-md:flex-wrap">
             <div className="w-1/2 max-md:w-full">
-                <p className="text-[#FFE700]">Discover Your Test</p>
+                <p className="text-[#FFE700] text-[1.5em] max-md:text-[1.3em] font-dancingScript">Discover Your Taste</p>
                 <article className="my-3">
                     <h1 className="text-[3em] max-lg:text-[2em] max-md:text-[1.6em]">We Provide Good Food</h1>
                     <h1 className="text-[3em] max-lg:text-[2em] max-md:text-[1.6em]">For Your Family!</h1>
