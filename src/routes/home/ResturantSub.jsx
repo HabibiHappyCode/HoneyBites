@@ -32,7 +32,7 @@ function ResturantSub() {
             <div className='flex flex-col gap-3 max-sm:gap-2 w-[49%] max-md:w-[100%]'>
                 <div className='flex items-end gap-3  max-sm:gap-2'>
                     <div className='w-[50%] h-[30vh] max-sm:w-[50%] max-sm:h-[25vh]'>
-                        <img className='w-[100%] h-[100%] object-cover' src="https:/res.cloudinary.com/dxe5unu0u/image/upload/v1760518949/resturant_one_vsv4bq.webp" alt="resturant" />
+                        <img className='w-[100%] h-[100%] object-cover' src="https://res.cloudinary.com/dxe5unu0u/image/upload/v1760530900/resturant_utgisr.jpg" alt="resturant" />
                     </div>
                     <div className='w-[50%] h-[40vh] max-sm:w-[50%] max-sm:h-[30vh]'>
                         <img className='w-[100%] h-[100%] object-cover' src="https://res.cloudinary.com/dxe5unu0u/image/upload/v1760518950/resturant_three_ojbksm.avif" alt="resturant" />
