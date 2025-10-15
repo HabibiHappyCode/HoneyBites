@@ -2,6 +2,7 @@ import React from 'react'
 import LandingContainer from './LandingContainer'
 import About from './About'
 import Menu from './Menu'
+import Resturant from './Resturant'
 
 function Home() {
     return (
@@ -9,6 +10,7 @@ function Home() {
           <LandingContainer />
           <About />
           <Menu />
+          <Resturant />
         </div>
     )
 }

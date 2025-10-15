@@ -15,11 +15,14 @@ function Navbar() {
     const handleNavigate = () => {
         navigate('/checkout')
     }
+    const handleNavigateToHome = () => {
+        navigate('/')
+    }
     return (
         <header className='p-5 fixed z-1 w-full h-auto max-lg:p-3'>
             <nav className='flex items-center justify-between px-6 py-3 rounded-full bg-[#FFE700] max-lg:py-2 max-lg:px-4 shadow-2xs'>
                 <div className='cursor-pointer'>
-                    <h1 className='text-[1.3em] font-medium text-stone-900  max-lg:text-[1.1em] uppercase'>Honey Bites</h1>
+                    <h1 className='text-[1.3em] font-medium text-stone-900  max-lg:text-[1.1em] uppercase' onClick={handleNavigateToHome}>Honey Bites</h1>
                 </div>
 
                 <ul>

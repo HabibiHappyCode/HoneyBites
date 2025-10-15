@@ -10,7 +10,7 @@ function EmptyCart() {
         navigate('/')
     }
     return (
-        <div className='flex flex-col justify-center items-center gap-6 py-5 max-lg:gap-3 max-lg:py-3'>
+        <div className='flex flex-col justify-center items-center h-[75vh] gap-6 py-5 max-lg:gap-3 max-lg:py-3'>
             <BiDish className='text-[4em] max-lg:text-[2em] ' />
             <h2 className='text-2xl max-lg:text-[1em]'>Your Cart is Empty</h2>
             <p className='text-[rgba(255,255,255,0.7)] max-lg:text-[.8em] '>Browse our categories and discover our best deals!</p>

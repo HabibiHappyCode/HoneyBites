@@ -19,7 +19,7 @@ function MenuItems() {
   const fillNum = Array(6).fill();
 
   return (
-    <div className="py-10 max-lg:py-5 flex flex-wrap gap-3">
+    <div className="py-10 max-lg:py-5 flex flex-wrap gap-5 max-lg:gap-3 max-[1198px]:gap-3">
       {isLoading
         ? fillNum.map((____, index) => (
             <div
@@ -59,7 +59,7 @@ function MenuItems() {
 
               <Button
                 onClick={() => handleAddMealToCart(meal)}
-                myStyle="block mx-auto bg-[#FFE700] text-stone-900 px-4 py-2 text-[16px] rounded max-md:text-[12px]"
+                myStyle="block mx-auto bg-[#FFE700] text-stone-900 px-4 py-2 text-[16px] rounded max-md:text-[12px] cursor-pointer"
               >
                 Add To Cart
               </Button>
