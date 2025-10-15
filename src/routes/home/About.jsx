@@ -41,7 +41,7 @@ function About() {
                 </div>
             </div>
 
-            <div className="w-1/2 h-[60vh] max-md:w-full">
+            <div className="w-1/2 h-[60vh] max-md:h-[50vh] max-md:w-full">
                 <img
                     src="https://res.cloudinary.com/dxe5unu0u/image/upload/v1760350343/chef_mja0fq.jpg"
                     alt="chef"
